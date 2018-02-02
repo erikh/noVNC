@@ -1,13 +1,12 @@
 {
   "name": "@erikh/novnc",
-  "version": "1.0.0-testing.2",
+  "version": "test",
   "description": "An HTML5 VNC client",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "scripts": {
-    "test": "PATH=$PATH:node_modules/karma/bin karma start karma.conf.js",
     "prepare": "node ./utils/use_require.js --as commonjs --clean"
   },
   "repository": {
