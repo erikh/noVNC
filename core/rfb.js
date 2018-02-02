@@ -1107,7 +1107,7 @@ RFB.prototype = {
             case 2:  // VNC authentication
                 return this._negotiate_std_vnc_auth();
 
-            case 16:  // TightVNC Security Type
+            case 260:  // TightVNC Security Type
                 return this._negotiate_tight_auth();
 
             default:
