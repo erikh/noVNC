@@ -1,6 +1,6 @@
 {
   "name": "@erikh/novnc",
-  "version": "test",
+  "version": "v1.0.0",
   "description": "An HTML5 VNC client",
   "directories": {
     "doc": "docs",
