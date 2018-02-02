@@ -11,7 +11,7 @@ export var encodings = {
     encodingCopyRect: 1,
     encodingRRE: 2,
     encodingHextile: 5,
-    encodingTight: 7,
+    encodingTight: -260,
 
     pseudoEncodingQualityLevel9: -23,
     pseudoEncodingQualityLevel0: -32,
