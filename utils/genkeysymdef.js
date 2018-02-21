@@ -36,7 +36,6 @@ if (show_help) {
   console.log("Usage: node parse.js [options] filename:");
   console.log("  -h [ --help ]                 Produce this help message");
   console.log("  filename                      The keysymdef.h file to parse");
-  return;
 }
 
 var buf = fs.readFileSync(filename);
