@@ -1257,7 +1257,7 @@ RFB.prototype = {
         // Only supported with full depth support
         if (this._fb_depth == 24) {
             encs.push(encodings.encodingTight);
-            encs.push(encodings.encodingTightPNG);
+            // encs.push(encodings.encodingTightPNG);
             encs.push(encodings.encodingHextile);
             encs.push(encodings.encodingRRE);
         }
